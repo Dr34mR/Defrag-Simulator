@@ -2,6 +2,8 @@
 
 A visual defragmentation simulator built on .NET 9 with a WPF UI. It demonstrates planning, batching, and safe application of disk "moves" across multiple phases, plus a final verification scan.
 
+<img width="965" height="576" alt="image" src="https://github.com/user-attachments/assets/0b68a541-f738-4218-8c01-b6e4724a9878" />
+
 ## Solution layout
 - DefragSimulator.Core (net9.0)
   - Engine, data model, planners, progress/events, speed mapping, batching.
