@@ -1,0 +1,29 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+  <!-- Light theme resources -->
+  <SolidColorBrush x:Key="AppBackgroundBrush" Color="#FFFFFF"/>
+  <SolidColorBrush x:Key="AppForegroundBrush" Color="#1E1E1E"/>
+  <SolidColorBrush x:Key="CellStrokeBrush" Color="#CCCCCC"/>
+  <SolidColorBrush x:Key="StatusBarBackgroundBrush" Color="#F0F0F0"/>
+  <SolidColorBrush x:Key="AccentBrush" Color="#2979FF"/>
+  <SolidColorBrush x:Key="DangerAccentBrush" Color="#D32F2F"/>
+  <SolidColorBrush x:Key="FinalAccentBrush" Color="#46B45A"/>
+
+  <!-- Category brushes (single source of truth) -->
+  <SolidColorBrush x:Key="BootCategoryBrush" Color="#7B4CFF"/>
+  <SolidColorBrush x:Key="SystemCategoryBrush" Color="#648CDC"/>
+  <SolidColorBrush x:Key="PagingCategoryBrush" Color="#C8A03C"/>
+  <SolidColorBrush x:Key="UserCategoryBrush" Color="#C35046"/>
+  <SolidColorBrush x:Key="MovingCategoryBrush" Color="#D0D0D0"/>
+  <SolidColorBrush x:Key="FreeCategoryBrush" Color="#00FFFFFF"/>
+
+  <!-- Shared thickness values -->
+  <sys:Double x:Key="HighlightStrokeThickness">3</sys:Double>
+  <sys:Double x:Key="CellBorderThicknessDefault">0.25</sys:Double>
+
+  <Style TargetType="ProgressBar">
+    <Setter Property="Height" Value="16"/>
+    <Setter Property="Foreground" Value="{StaticResource AccentBrush}"/>
+  </Style>
+</ResourceDictionary>
